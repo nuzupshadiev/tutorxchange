@@ -1,5 +1,4 @@
 ---
-import AppFooter from "../components/AppFooter.astro";
 import AppHeader from "../components/AppHeader.astro"
 ---
 
@@ -12,14 +11,13 @@ import AppHeader from "../components/AppHeader.astro"
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
 		<meta name="description" content="Template built with tailwindcss using Tailus blocks v2">
-		<title>Tailus astro theme</title>
+		<title>TutorXchange</title>
 
 		<link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700&display=swap" rel="stylesheet">
 	</head>
-	<body class="bg-white dark:bg-gray-900">
+	<body class="bg-white light:bg-gray-900">
 		<AppHeader/>
 		<slot />
-		<AppFooter/>
 	</body>
 </html>
 <style>
