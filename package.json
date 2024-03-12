@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://nuzupshadiev.github.io/tutorxchange",
   "scripts": {
-    "predeploy": "astro build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "dev": "astro dev",
     "start": "astro dev",
@@ -13,7 +13,7 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^1.1.5"
+    "astro": "^1.9.2"
   },
   "devDependencies": {
     "@astrojs/tailwind": "^1.0.0",
