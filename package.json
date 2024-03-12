@@ -1,8 +1,11 @@
 {
-  "name": "astrolus",
+  "name": "tutorxchange",
   "version": "0.0.1",
   "private": true,
+  "homepage": "https://nuzupshadiev.github.io/tutorxchange",
   "scripts": {
+    "predeploy": "astro build",
+    "deploy": "gh-pages -d dist",
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
@@ -13,6 +16,7 @@
     "astro": "^1.1.5"
   },
   "devDependencies": {
-    "@astrojs/tailwind": "^1.0.0"
+    "@astrojs/tailwind": "^1.0.0",
+    "gh-pages": "^6.1.1"
   }
 }
